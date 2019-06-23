@@ -1,0 +1,89 @@
+header, nav, aside, menu, figure, article, footer { display:block; } 
+body, div, form, textarea, label, input, ul, ol, li, dl, dt,
+dd, p, span, a, img, h1, h2, h3, h4, h5, h6, tbody, tfoot, tr,
+ th, td, pre, code, form, fieldset, legend, font { margin:0; padding:0; } 
+table { border-collapse:collapse; border-spacing:0; } 
+caption, th { text-align:left; } 
+sup { vertical-align:text-top; } 
+sub { vertical-align:text-bottom; } 
+li { list-style:none; } 
+fieldset, img { border:none; } 
+input, textarea, select { 
+	font-family:inherit; 
+	font-size:inherit; 
+	font-weight:inherit; 
+	*font-size:100%; 
+	color:inherit; _color:#333; *color:#333; 
+	outline:none; } 
+/*BASE CLASS*/ 
+.cfix { *display:inline-block;*zoom:1} 
+.cfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; } 
+/*公告栏滚动CSS*/ 
+
+.Notice{
+	position: absolute;
+	top:2490px; left:14.5%; width:71%;
+	height:300px;
+	background:black;
+	color: red;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	border: #FF0000 4px solid;
+	}
+.Line{
+	position: absolute;
+	top:2532px; left:16%; width:68%;
+	border: yellow 1px solid;
+	}
+#callboard {
+	position: absolute;
+	top:2539px; 
+	left:15.5%; width:69.2%;
+    margin:0% auto 0;
+    height:242px;
+    line-height:24px; 
+    overflow:hidden; 
+    font-size:12px;
+    /*border: #FF0000 2px solid;*/
+ 
+	} 
+#callboard ul { padding:0; background-color:black } 
+#callboard li { padding:0; } 
+/*公告右图片*/
+/*.aa img{
+	z-index: -3;
+	background: black;
+	position: absolute;
+	left:50.5%; 
+	top:2550px;
+	z-index:9;
+	width: 34%;
+	height:26%;
+	border: #FF0000 2px solid;
+		}*/
+/*底部四张图片*/
+.Noticeimg{
+	position: absolute;
+	top:2835px;
+	left:13.5%;
+	width: 100%;
+		}
+.Noticeimg img{
+	width:16%;
+	margin: 1%;	
+		}
+/*底部*/
+.foot{
+	position :absolute;width:100%;
+	 height:300px;top: 3000px;
+		}
+.foot a{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	top: 50px;
+	left:13.5%;
+	font-size: 20px;
+	width: 63%;
+		}

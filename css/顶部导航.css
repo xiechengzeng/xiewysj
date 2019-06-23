@@ -1,0 +1,46 @@
+/*顶部*/                                      
+	.head{                                      
+		background-color:black;height: 50px;
+  }
+  .head img{width: 6%; height: 40px; margin-left: 7%;margin-top: 5px;}
+  .head h3{margin-top: -38px;margin-left:13%;color: white;} 
+#navigation{
+	position: absolute;
+	right: 0px;
+	top: 1px;
+	z-index: 10000;
+}
+ #navigation,#navigation li ul{
+     list-style-type: none;
+ }
+ #navigation li{
+     float: left;
+     text-align: center;
+    position: relative;
+}
+ #navigation li a:link,#navigation li a:visited{
+     display: block;
+     text-decoration: none;
+     color:white;
+     width: 150px;
+    height: 48px;
+    font-size: 23px;
+     line-height: 40px;
+     background:black;
+ }
+ #navigation li a:hover{
+     color:red;
+     background: #F0F0F0;
+ }
+ #navigation li ul li{
+     float: none;    
+ }
+ #navigation li ul{
+     display: none;
+    position: absolute;    /*二级ul使用绝对定位，宽度大于一级菜单时，才不会撑大一级*/
+
+}
+#navigation li ul li a:link,#navigation li ul li a:visited{
+     display: block;     
+     width: 151px;}
+
